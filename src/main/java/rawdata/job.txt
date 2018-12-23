@@ -1,0 +1,80 @@
+Accountant
+Account Executive
+Auditor
+Automotive Technician
+Business Analyst
+Civil Engineer
+Customer Service Representative
+Financial Analyst
+IT Director
+Marketing Manager
+Nursing Home Administrator
+Pharmacist
+Physical Therapist
+Quality Engineer
+Registered Nurse
+Restaurant Manager
+Retail Sales Associate
+Security Officer
+Truck Driver
+Aerospace Engineer
+Architect
+Biomedical Engineer
+Chemical Engineer
+Civil Engineer
+Construction Engineer
+Controls Engineer
+Design Engineer
+Drafter
+Electrical Engineer
+Electronics Engineer
+Electronics Technician
+Engineering Technician
+Entry Level Electrical Engineer
+Environmental Engineer
+Field Engineer
+Industrial Engineer
+Manufacturing Engineer
+Materials Engineer
+Mechanical Engineer
+Packaging Engineer
+Process Engineer
+Product Engineer
+Project Engineer
+Project Manager
+Quality Engineer
+Safety Manager
+Structural Engineer
+Validation Engineer
+Welding Engineer
+Butler
+Custodian
+Director of Housekeeping
+Environmental Services Director
+Environmental Services Manager
+Environmental Services Supervisor
+Environmental Services Worker
+Exterminator
+Floor Technician
+General Cleaner
+Grounds Keeper
+Grounds Manager
+Housekeeper
+Housekeeping Manager
+Housekeeping Supervisor
+Houseperson
+Irrigation Technician
+Janitor
+Janitorial Supervisor
+Landscape Foreman
+Landscape Laborer
+Landscape Supervisor
+Maintenance Supervisor
+Maintenance Technician
+Pest Control Technician
+Porter
+Room Attendant
+Sanitation Worker
+Tree Trimmer
+Washer
+Dev
