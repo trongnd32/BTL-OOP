@@ -18,7 +18,7 @@ public class GenLoca {
 	
 	int nameAmount = 0;
 	int descAmount = 0;
-	public void genCountry(int amount) {
+	public void genLoca(int amount) {
 		
         // Lấy dữ liệu tên địa danh
 		BufferedReader br = null;
