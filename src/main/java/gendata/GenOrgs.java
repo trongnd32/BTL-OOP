@@ -78,6 +78,8 @@ public class GenOrgs {
             }
         }
         
+        System.out.println("Completed get orgs data");
+        
         // Đóng br
         try {
             br.close();
@@ -90,7 +92,7 @@ public class GenOrgs {
         
         BufferedWriter bw = null;
         try {
-        	bw = new BufferedWriter(new FileWriter("/media/ductrong/DATA/Study/Kì 5 - BK/OOP/Workspace/BTL-OOP/src/main/java/generateddata/person.txt"));
+        	bw = new BufferedWriter(new FileWriter("/media/ductrong/DATA/Study/Kì 5 - BK/OOP/Workspace/BTL-OOP/src/main/java/generateddata/orgs.txt"));
         } catch (IOException e) {
             e.printStackTrace();
         } 
@@ -114,6 +116,7 @@ public class GenOrgs {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		System.out.println("Finished generate orgs");
 		
 	}
 	public GenOrgs() {

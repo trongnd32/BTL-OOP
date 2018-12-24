@@ -64,6 +64,8 @@ public class GenCountry {
             e.printStackTrace();
         }
         
+        System.out.println("Completed get country data");
+        
         // Ghi dữ liệu ra file 
         Random rd = new Random();
         
@@ -92,7 +94,7 @@ public class GenCountry {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+		System.out.println("Finished generator country");
 	}
 	public GenCountry() {
 	}

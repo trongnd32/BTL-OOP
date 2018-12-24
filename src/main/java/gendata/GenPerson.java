@@ -78,6 +78,7 @@ public class GenPerson {
             }
         }
         
+        System.out.println("Completed get person data");
         // Đóng br
         try {
             br.close();
@@ -114,7 +115,7 @@ public class GenPerson {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+		System.out.println("Finished generate person");
 	}
 	public GenPerson() {
 	}

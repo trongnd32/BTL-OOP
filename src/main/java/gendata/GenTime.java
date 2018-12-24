@@ -18,8 +18,8 @@ public class GenTime {
 		for(int i = 1; i <= amount; i++) {
 			
 			// Lấy ngẫu nhiên ngày tháng năm
-	        int y = rd.nextInt() % 2018 + 1;
-	        int m = rd.nextInt() % 12 + 1;
+	        int y = rd.nextInt(2018) + 1;
+	        int m = rd.nextInt(12) + 1;
 	        int d = 1;
 	        switch( m ){
 	            case 1:
@@ -29,28 +29,28 @@ public class GenTime {
 	            case 8:
 	            case 10:
 	            case 12: {
-	                d = rd.nextInt() % 31 + 1;
+	                d = rd.nextInt(31) + 1;
 	                break;
 	            }
 	            case 4:
 	            case 6:
 	            case 9:
 	            case 11: {
-	                d = rd.nextInt() % 30 + 1;
+	                d = rd.nextInt(30) + 1;
 	                break;
 	            }
-	            default: d = rd.nextInt() % 28 + 1;
+	            default: d = rd.nextInt(28) + 1;
 	        }
 	        
 	        // Ghép ngày tháng năm thành xâu
 	        StringBuffer temp = new StringBuffer("");
 	        int d1 = d / 10;
 	        int d2 = d % 10;
-	        temp.append(d1 + d2 + "/");
+	        temp.append(d1 + "" + d2 + "/");
 	        int m1 = m / 10;
 	        int m2 = m % 10;
-	        temp.append(m1 + m2 + "/");
-	        temp.append(y + "\n ");
+	        temp.append(m1 + "" + m2 + "/");
+	        temp.append(y + "\n");
 	        
 	        // Ghi vào file
 	        try {
@@ -65,5 +65,7 @@ public class GenTime {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		System.out.println("Finished generate time");
 	}
 }

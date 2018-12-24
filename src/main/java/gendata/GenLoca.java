@@ -57,6 +57,8 @@ public class GenLoca {
             }
         }
         
+        System.out.println("Completed get location data");
+        
         // Đóng br
         try {
             br.close();
@@ -93,6 +95,7 @@ public class GenLoca {
 			e.printStackTrace();
 		}
 		
+		System.out.println("Finished generate location");
 	}
 	public GenLoca() {
 	}

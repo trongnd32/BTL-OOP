@@ -18,7 +18,7 @@ public class GenEvent {
 	
 	int nameAmount = 0;
 	int descAmount = 0;
-	public void gen(int amount) {
+	public void genEvent(int amount) {
 		
         // Lấy dữ liệu tên địa danh
 		BufferedReader br = null;
@@ -64,6 +64,8 @@ public class GenEvent {
             e.printStackTrace();
         }
         
+        System.out.println("Completed get event data");
+        
         // Ghi dữ liệu ra file 
         Random rd = new Random();
         
@@ -92,7 +94,7 @@ public class GenEvent {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+		System.out.println("Finished generate event");
 	}
 	public GenEvent() {
 	}
