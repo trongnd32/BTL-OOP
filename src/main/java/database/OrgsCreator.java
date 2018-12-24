@@ -76,7 +76,7 @@ public class OrgsCreator {
     		DatabaseManager.graphDb.execute(s.toString());
     		s.delete(0, len);
         }
-        System.out.println(s);
+        System.out.println("Success add orgs to database");
 	}
 	
 	// Constructor 

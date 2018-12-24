@@ -38,9 +38,9 @@ public class PersonCreator {
                 s.append(textInALine);
                 s.append("\", ");
                 
-                // Thêm thuộc tính decription
+                // Thêm thuộc tính description
                 textInALine = br.readLine();
-                s.append("decription : \"");
+                s.append("description : \"");
                 s.append(textInALine);
                 s.append("\", ");
                 // Thêm thuộc tính job
@@ -70,13 +70,14 @@ public class PersonCreator {
                 e.printStackTrace();
             }
         }
+        
         if(count!=0) {
         	int len = s.length();
     		s.delete(len-2, len);
     		DatabaseManager.graphDb.execute(s.toString());
     		s.delete(0, len);
         }
-        System.out.println(s);
+        System.out.println("Success add person to database");
 	}
 	
 	// Constructor 

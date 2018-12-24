@@ -38,9 +38,9 @@ public class CountryCreator {
                 s.append(textInALine);
                 s.append("\", ");
                 
-                // Thêm thuộc tính decription
+                // Thêm thuộc tính 
                 textInALine = br.readLine();
-                s.append("decription : \"");
+                s.append(" description : \"");
                 s.append(textInALine);
                 s.append("\"}), ");
                 
@@ -73,7 +73,7 @@ public class CountryCreator {
     		DatabaseManager.graphDb.execute(s.toString());
     		s.delete(0, len);
         }
-//        System.out.println(s);
+        System.out.println("Success add country to database");
 	}
 	
 	// Constructor 

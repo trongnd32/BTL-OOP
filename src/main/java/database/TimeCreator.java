@@ -27,7 +27,7 @@ public class TimeCreator {
             // Đọc dữ liệu
             while ((textInALine = br.readLine()) != null) {
             	DatabaseManager.totalEntity++;
-            	s.append("(:EVENT {");
+            	s.append("(:TIME {");
             	// Thêm thuộc tính id
             	s.append("id : \"");
                 s.append(DatabaseManager.totalEntity);
@@ -73,7 +73,7 @@ public class TimeCreator {
     		DatabaseManager.graphDb.execute(s.toString());
     		s.delete(0, len);
         }
-//        System.out.println(s);
+        System.out.println("Success add time to database");
 	}
 	
 	// Constructor 

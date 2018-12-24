@@ -73,7 +73,7 @@ public class EventCreator {
     		DatabaseManager.graphDb.execute(s.toString());
     		s.delete(0, len);
         }
-//        System.out.println(s);
+        System.out.println("Success add event to database");
 	}
 	
 	// Constructor 
